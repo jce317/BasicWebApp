@@ -8,8 +8,8 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
-        if (query.toLowerCase().contains("Panino")) {
-            return "Singular of panini.";
+        if (query.toLowerCase().contains("panino")) {
+            return "Panino is the singular of panini in italian.";
         }
         return "";
     }
