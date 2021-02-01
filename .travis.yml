@@ -1,10 +1,7 @@
-# Sample travis config.
-
 language: java
 jdk:
 - openjdk8
 script: mvn clean verify
 deploy:
-  provider: heroku
   api_key:
-    secure: "177e9bdd-e474-4a7e-b553-732303cfff7b"
+    secure: hMAH1NhS2deTXZdGfMU9CvgvNjYxKKFnDIeIt7ZroZ3VbVMvhs4L/nnr76B+Xu9TPbX79elpnu8TRZRzWswqzMtgdqeC/a9VR1bOr9Hflh1rC64x1Ghkf5G7JDkEyvgCG9Tc3ZiNISWMBCmWTqySNP3stPK6yepsDd3U9ZfQfd4jAmUivWlzzhNIVUEB7F+vI4GP18lmmHOw2zItDCeT6PmlEANb1Zw6Bi3so0zmnGJeK+sxpob5BTOGvRU8bk2CQ4CjtrhfEYuDBzeARiwqECnTuzkyX3QkmWdZityIGu8sMTTIRRdblW4tfxpW9YlesDKrIAxLAdnNfPj1WWumObop65NuGMRumb416jJs7CN//SufYPlDMWix+mu17lqPODXSWYo9rxye9oW4S+OWkJUQXO5D4N2hBPSvLvMs12CSkn9E9GB1i+aca7zxcOySpv4oJKe3m053XdZ/NqEd5nxZQDEz7u2AFR6965z0U0LUnpDBJaZ9rwC9OT7E1HzCKitUhsGHV4BRD6e55HCMjryy6nU6xJSv9Qo2uUqgZNZlvPb0cEUL2bevVE5rhXMb68Nub8KE0ZnfS8G1UIicmaTBX6RWI66mE6+JFFfoCHIh+aGnMm5u7PFrh6WW1OOtUaZtM9ZHHC3/X1W+CyP6KRtgjcfX/mTJy37m9Dkt/GQ=
